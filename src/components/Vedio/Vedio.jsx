@@ -14,7 +14,7 @@ export default function Vedio() {
         </header>
         <div className="relative" style={{ paddingTop: "56.25%" }}>
           <iframe
-            src="https://www.youtube.com/embed/dQw4w9WgXcQ?rel=0&modestbranding=1&fs=1"
+            src="https://www.youtube.com/embed/24c3McYQyGU"
             title="لمحة عن برنامج الحساب الذهني"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
