@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import Vedio from "../Vedio/Vedio";
 export default function ServicesPage() {
   const handlePDFDownload = () => {
     // Create a link to download the PDF
@@ -11,7 +12,7 @@ export default function ServicesPage() {
   };
 
   return (
-    <div dir="rtl" className="bg-white">
+    <div className="bg-white">
       {/* Congratulations Section */}
       <section className="relative overflow-hidden">
         <div className="absolute inset-0 pointer-events-none">
@@ -101,7 +102,7 @@ export default function ServicesPage() {
           ))}
         </div>
       </section>
-
+      <Vedio />
       {/* PDF Download Section */}
       <section className="bg-gray-50 border-y border-gray-100">
         <div className="mx-auto max-w-4xl px-6 py-12 text-center">
