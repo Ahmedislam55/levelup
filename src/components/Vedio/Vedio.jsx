@@ -4,12 +4,16 @@ export default function Vedio() {
   return (
     <section className="bg-white">
       <div className="mx-auto max-w-6xl px-6 py-12">
-        <header className="text-center mb-6">
-          <h2 className="text-2xl md:text-3xl font-extrabold text-main">
-            شاهد لمحة سريعة عن البرنامج
+        <header className="text-center mb-6 font-semibold">
+          <h2 className="text-3xl md:text-4xl font-extrabold text-main">
+            أساسيات رياضيات الفيدا الهندية سر الحساب الذهني السريع
           </h2>
-          <p className="mt-2 text-gray-700">
-            مقتطف يعرّفك على أسلوب التدريب والمخرجات المتوقعة قبل الانضمام.
+          <p className="mt-2 text-gray-700 font-bold text-lg leading-8">
+            ابدأ رحلتك مع Level Up وتعلّم أسرار رياضيات الفيدا الهندية في الجمع،
+            الطرح، الضرب وحتى استخراج الجذور. الطرق دي مش بس هتسهل عليك العمليات
+            الحسابية بشكل أسرع، لكن كمان هتفتحلك باب لتحويل شغفك بالحساب الذهني
+            إلى مهارة احترافية وفرصة عمل مستمرة تقدر تبني بيها مستقبلك بخطوات
+            واثقة.
           </p>
         </header>
         <div className="relative" style={{ paddingTop: "56.25%" }}>
