@@ -48,6 +48,38 @@ export default function HomePage() {
           </motion.p>
         </div>
       </section>
+      {/* Registration Form */}
+      <section className="mx-auto max-w-4xl px-6 py-12">
+        <motion.div
+          initial={{ opacity: 0, y: 12 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+          viewport={{ once: true }}
+          className="text-center mb-8"
+        >
+          <h2 className="text-2xl md:text-3xl font-extrabold text-gray-900 mb-4">
+            📋 مستعد تبدأ رحلتك؟
+          </h2>
+          <p className="text-gray-700">سجل بياناتك وخد الكورس المجاني فوراً</p>
+        </motion.div>
+        <Link
+          target="blank"
+          to="https://docs.google.com/forms/d/e/1FAIpQLSePIL-hDKbF71NIANgQ1yMRaUUk08KXvP_Yf4yk10LDXc2q-w/viewform?usp=header"
+        >
+          <motion.button
+            type="submit"
+            whileHover={{ y: -2, scale: 1.02 }}
+            whileTap={{ scale: 0.98 }}
+            className="w-full cursor-pointer bg-main text-white font-semibold py-4 px-6 rounded-lg shadow-sm shadow-main/20 hover:shadow-md hover:shadow-main/30 focus:outline-none focus:ring-2 focus:ring-main/40 transition-all"
+          >
+            🚀 ابدأ رحلتك الآن - مجاناً!
+          </motion.button>
+        </Link>
+
+        <p className="text-center text-sm text-gray-600 mt-4">
+          بالضغط على الزر، أنت توافق على شروط الاستخدام وسياسة الخصوصية
+        </p>
+      </section>
       <Vedio />
       <AboutPage />
       <ServicesPage />
