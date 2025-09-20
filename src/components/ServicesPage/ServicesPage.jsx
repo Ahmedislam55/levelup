@@ -68,8 +68,8 @@ export default function ServicesPage() {
           {[
             {
               number: "1️⃣",
-              title: "الدرس الأول: النمط البصري",
-              description: "تعلم كيف تحول الأرقام لأنماط بصرية سهلة التذكر",
+              title: "الدرس الأول: بناء الحس العددي",
+              description: "تعلم الجمع بدون تحميل والطرح بدون استلاف",
             },
             {
               number: "2️⃣",
