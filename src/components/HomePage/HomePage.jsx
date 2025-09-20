@@ -76,14 +76,13 @@ export default function HomePage() {
             type="submit"
             whileHover={{ y: -2, scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
-            className="w-full cursor-pointer bg-main text-white font-semibold py-4 px-6 rounded-lg shadow-sm shadow-main/20 hover:shadow-md hover:shadow-main/30 focus:outline-none focus:ring-2 focus:ring-main/40 transition-all"
+            className="w-full cursor-pointer bg-main text-white font-semibold py-4 px-6 rounded-lg shadow-sm shadow-main/20 hover:shadow-md hover:shadow-main/30 focus:outline-none focus:ring-2 focus:ring-main/40 transition-all text-lg"
           >
-            🚀 ابدأ رحلتك الآن - مجاناً!
+            📝 املأ الفورم وابدأ مجاناً!
           </motion.button>
         </Link>
-
         <p className="text-center text-sm text-gray-600 mt-4">
-          بالضغط على الزر، أنت توافق على شروط الاستخدام وسياسة الخصوصية
+          بالضغط على الزر، هتنتقل لملء نموذج التسجيل.
         </p>
       </section>
       <Vedio />
