@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@plugin "flowbite/plugin";
+@theme {
+  --color-main: #4a7142;
+  --color-yellow: #cd953d;
+}
+html,
+body {
+  direction: rtl;
+  background-color: #f3f3f3;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
